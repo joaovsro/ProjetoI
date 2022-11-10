@@ -1,0 +1,555 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+head {
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px;
+    column-gap: 60px;
+}
+
+body {
+    display:flex;
+    flex-direction: row;
+    flex-basis: auto;
+    padding: 20px;
+    column-gap: 150px;
+    font-family: monospace;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    overflow: scroll;
+}
+
+.hide {
+    display: none;
+}
+
+.title:hover + .hide {
+    display: block;
+    color: dimgray;
+}
+
+.navbar {
+    position: fixed;
+    top: 3em;
+    left: 3em;
+    width: 30%;
+}
+
+.navbar-spacer{
+       flex-basis: 400px;
+}
+
+.references {
+    margin-top: 40px;
+    width: 60%;
+}
+.texts {
+    
+ }
+
+.texts div {
+    padding-top: 20px;
+}
+
+
+
+.titulo {
+    color: white;
+}
+
+.titulo:hover + #sintese {
+    animation:type 3.5s steps(40, end);
+}
+
+#sintese {
+    color: white;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 1.2em;
+    color: white;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 0.8em;
+    font-style: italic;
+    color:white;
+    padding-right: 80px;
+}
+
+ul {
+    font-family: monospace;
+    font-size: 1.1em;
+    margin-left: 0;
+    line-height: 2em;
+    color: aliceblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    color: #2e2d2c;
+}
+
+ul li a:hover {
+    color: aliceblue;
+}
+ 
+    
+#bibliografiaI {
+    font-size: 0.7em;
+    line-height: 0.9em;
+    color: coral;
+    opacity: 70%;
+    }
+
+#bibliografiaI:hover {
+    opacity: 100%;
+    transition: opacity .2s ease-out;
+} 
+
+#bibliografiaII {
+    font-size: 0.7em;
+    line-height: 0.9em;
+    color: blueviolet;
+    opacity: 70%;
+    }
+
+#bibliografiaII:hover {
+    opacity: 100%;
+    transition: opacity .2s ease-out;
+} 
+
+#bibliografiaIII {
+    font-size: 0.7em;
+    line-height: 0.9em;
+    color: deeppink;
+    opacity: 70%;
+    }
+
+#bibliografiaIII:hover {
+    opacity: 100%;
+    transition: opacity .2s ease-out;
+} 
+
+#bibliografiaIV {
+    font-size: 0.7em;
+    line-height: 0.9em;
+    color: greenyellow;
+    opacity: 70%;
+    }
+
+#bibliografiaIV:hover {
+    opacity: 100%;
+    transition: opacity .2s ease-out;
+} 
+
+#text1 {
+    color: #646363;
+    font-family: monospace;
+    font-size: 1.3em;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 60px;
+}
+
+#text2 {
+    color: #646363;
+    font-family: monospace;
+    font-size: 1.3em;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 60px;
+}
+
+
+#text3 {
+    color: #646363;
+    font-family: monospace;
+    font-size: 1.3em;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 60px;
+}
+
+#text4 {
+    color: #646363;
+    font-family: monospace;
+    font-size: 1.3em;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 60px;
+}
+
+#text5 {
+    color: #646363;
+    font-family: monospace;
+    font-size: 1.3em;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 60px;
+}
+
+#text6 {
+    color: #646363;
+    font-family: monospace;
+    font-size: 1.3em;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 60px;
+}
+
+#text7 {
+    color: #646363;
+    font-family: monospace;
+    font-size: 1.3em;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 60px;
+}
+
+#text8 {
+    color: #646363;
+    font-family: monospace;
+    font-size: 1.3em;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 60px;
+}
+
+#text9 {
+    color: #646363;
+    font-family: monospace;
+    font-size: 1.3em;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 60px;
+}
+
+#text10 {
+    color: #646363;
+    font-family: monospace;
+    font-size: 1.3em;
+    padding-left: 300px;
+    padding-right: 10px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 60px;
+}
+
+
+.span11 {
+    color: coral;
+}
+
+.span11:hover+.img1 {
+    display: block;
+    opacity: 1;
+}
+
+.span12 {
+    color: blueviolet;
+}
+
+.span12:hover+.img1 {
+    display: block;
+    opacity: 1;
+}
+
+.span21 {
+    color: coral;
+}
+
+.span21:hover+.img2 {
+    display: block;
+    opacity: 1;
+}
+
+.span22 {
+    color: blueviolet;
+}
+
+.span22:hover+.img2 {
+    display: block;
+    opacity: 1;
+}
+
+.span31 {
+    color: coral;
+}
+
+.span31:hover+.img3 {
+    display: block;
+    opacity: 1;
+}
+
+.span32 {
+    color: blueviolet;
+}
+
+.span32:hover+.img3 {
+    display: block;
+    opacity: 1;
+}
+
+.span41 {
+    color: coral;
+}
+
+.span41:hover+.img4 {
+    display: block;
+    opacity: 1;
+}
+
+.span42 {
+    color: blueviolet;
+}
+
+.span42:hover+.img4 {
+    display: block;
+    opacity: 1;
+}
+
+.span51 {
+    color: coral;
+}
+
+.span51:hover+.img5 {
+    display: block;
+    opacity: 1;
+}
+
+.span52 {
+    color: blueviolet;
+}
+
+.span52:hover+.img5 {
+    display: block;
+    opacity: 1;
+}
+
+.span61 {
+    color: hotpink;
+}
+
+.span61:hover+.img6 {
+    display: block;
+    opacity: 1;
+}
+
+.span62 {
+    color: greenyellow;
+}
+
+.span62:hover+.img6 {
+    display: block;
+    opacity: 1;
+}
+
+.span71 {
+    color: hotpink;
+}
+
+.span71:hover+.img7 {
+    display: block;
+    opacity: 1;
+}
+
+.span72 {
+    color: greenyellow;
+}
+
+.span72:hover+.img7 {
+    display: block;
+    opacity: 1;
+}
+
+.span81 {
+    color: hotpink;
+}
+
+.span81:hover+.img8 {
+    display: block;
+    opacity: 1;
+}
+
+.span82 {
+    color: greenyellow;
+}
+
+.span82:hover+.img8 {
+    display: block;
+    opacity: 1;
+}
+
+.span91 {
+    color: hotpink;
+}
+
+.span91:hover+.img9 {
+    display: block;
+    opacity: 1;
+}
+
+.span92 {
+    color: greenyellow;
+}
+
+.span92:hover+.img9 {
+    display: block;
+    opacity: 1;
+}
+
+.span101 {
+    color: hotpink;
+}
+
+.span101:hover+.img10 {
+    display: block;
+    opacity: 1;
+}
+
+.span102 {
+    color: greenyellow;
+}
+
+.span102:hover+.img10 {
+    display: block;
+    opacity: 1;
+}
+
+.legenda {
+ position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.img1 { 
+   position: fixed;
+   top: 300px;
+   right: 200px;
+   width: 450px;
+   opacity: 0;
+   transition: 0.5s ease;
+   z-index: -1;
+}
+
+.img2 { 
+   position: fixed;
+   top: 300px;
+   right:200px;
+   width: 350pt;
+   opacity: 0;
+   transition: 0.5s ease;
+}
+
+.img3 { 
+   position: fixed;
+   top: 150px;
+   right:200px;
+   width: 250pt;
+   opacity: 0;
+   transition: 0.5s ease;
+}
+
+.img4 { 
+   position: fixed;
+   top: 300px;
+   right:200px;
+   width: 350pt;
+   opacity: 0;
+   transition: 0.5s ease;
+}
+
+.img5 { 
+   position: fixed;
+   top: 300px;
+   right:200px;
+   width: 350pt;
+   opacity: 0;
+   transition: 0.5s ease;
+}
+
+.img6 { 
+   position: fixed;
+   top: 300px;
+   right:200px;
+   width: 350pt;
+   opacity: 0;
+   transition: 0.5s ease;
+}
+
+.img7 { 
+   display:none;
+   position: fixed;
+   left: 500pt;
+   width: 350pt;
+   opacity: 80%;
+   transition: 2s ease-in-out;
+   z-index: -1;
+}
+
+.img8 { 
+   position: fixed;
+   top: 300px;
+   right:200px;
+   width: 350pt;
+   opacity: 0;
+   transition: 0.5s ease;
+}
+
+.img9 { 
+   display:none;
+   position: fixed;
+   left: 500pt;
+   width: 350pt;
+   opacity: 80%;
+   transition: 2s ease-in-out;
+   z-index: -1;
+}
+
+.img10 { 
+   position: fixed;
+   top: 300px;
+   right:200px;
+   width: 350pt;
+   opacity: 0;
+   transition: 0.5s ease;
+}
